@@ -1,0 +1,133 @@
+{
+  "selection": "10 clip IDs displayed on the FdAudio demo page; prompts taken from our actual test877 manifest, not copied from that page. No listening-based quality filtering.",
+  "processing": "All five columns use the same 16 kHz, mono, 16-bit lossless FLAC encoding and exactly 10.000 seconds. For every source, the first 160,000 PCM samples are preserved exactly; generated sources have their final 256 samples (0.016 s) omitted. No resampling, gain change, normalization, denoising, or lossy compression.",
+  "models": {
+    "mean": "MeanAudio-S-Full released initialization",
+    "fd": "Official released FdAudio; not FdAudio local",
+    "drift_mean": "Final checkpoint from MeanAudio-S-Full; step4400",
+    "drift_fd": "Final checkpoint from official FdAudio; step1800",
+    "real": "Ground Truth: real test877 reference recording (evaluation-preprocessed audio)"
+  },
+  "clips": [
+    {
+      "id": "jf4iyQPJSvk_000020",
+      "caption": "Water trickles down continuously",
+      "category": "Water",
+      "audio": {
+        "mean": "audio/mean/jf4iyQPJSvk_000020.flac",
+        "fd": "audio/fd/jf4iyQPJSvk_000020.flac",
+        "drift_mean": "audio/drift_mean/jf4iyQPJSvk_000020.flac",
+        "drift_fd": "audio/drift_fd/jf4iyQPJSvk_000020.flac",
+        "real": "audio/real/jf4iyQPJSvk_000020.flac"
+      }
+    },
+    {
+      "id": "3xDZ-kdGE3o_000010",
+      "caption": "Metal rattling followed by a door slamming shut then plastic clacking proceeded by a toilet flushing",
+      "category": "Indoor events",
+      "audio": {
+        "mean": "audio/mean/3xDZ-kdGE3o_000010.flac",
+        "fd": "audio/fd/3xDZ-kdGE3o_000010.flac",
+        "drift_mean": "audio/drift_mean/3xDZ-kdGE3o_000010.flac",
+        "drift_fd": "audio/drift_fd/3xDZ-kdGE3o_000010.flac",
+        "real": "audio/real/3xDZ-kdGE3o_000010.flac"
+      }
+    },
+    {
+      "id": "eXj9OAik5cc_000370",
+      "caption": "A motorbike engine running idle as wind blows into a microphone and birds chirp in the background",
+      "category": "Motorcycle",
+      "audio": {
+        "mean": "audio/mean/eXj9OAik5cc_000370.flac",
+        "fd": "audio/fd/eXj9OAik5cc_000370.flac",
+        "drift_mean": "audio/drift_mean/eXj9OAik5cc_000370.flac",
+        "drift_fd": "audio/drift_fd/eXj9OAik5cc_000370.flac",
+        "real": "audio/real/eXj9OAik5cc_000370.flac"
+      }
+    },
+    {
+      "id": "TtRtURWVYBE_000040",
+      "caption": "Bells chime and ring",
+      "category": "Bells",
+      "audio": {
+        "mean": "audio/mean/TtRtURWVYBE_000040.flac",
+        "fd": "audio/fd/TtRtURWVYBE_000040.flac",
+        "drift_mean": "audio/drift_mean/TtRtURWVYBE_000040.flac",
+        "drift_fd": "audio/drift_fd/TtRtURWVYBE_000040.flac",
+        "real": "audio/real/TtRtURWVYBE_000040.flac"
+      }
+    },
+    {
+      "id": "2UNuMbxz9ds_000022",
+      "caption": "A vehicle engine revving up as whips smack fiberglass followed by a vehicle accelerating at a fast rate and tires skidding",
+      "category": "Vehicle motion",
+      "audio": {
+        "mean": "audio/mean/2UNuMbxz9ds_000022.flac",
+        "fd": "audio/fd/2UNuMbxz9ds_000022.flac",
+        "drift_mean": "audio/drift_mean/2UNuMbxz9ds_000022.flac",
+        "drift_fd": "audio/drift_fd/2UNuMbxz9ds_000022.flac",
+        "real": "audio/real/2UNuMbxz9ds_000022.flac"
+      }
+    },
+    {
+      "id": "4xrL4TSgHwU_000030",
+      "caption": "A vehicle engine stalling then starting up and running idle",
+      "category": "Engine",
+      "audio": {
+        "mean": "audio/mean/4xrL4TSgHwU_000030.flac",
+        "fd": "audio/fd/4xrL4TSgHwU_000030.flac",
+        "drift_mean": "audio/drift_mean/4xrL4TSgHwU_000030.flac",
+        "drift_fd": "audio/drift_fd/4xrL4TSgHwU_000030.flac",
+        "real": "audio/real/4xrL4TSgHwU_000030.flac"
+      }
+    },
+    {
+      "id": "bIV3bJZpkgA_000030",
+      "caption": "A helicopter flying in the distance",
+      "category": "Aircraft",
+      "audio": {
+        "mean": "audio/mean/bIV3bJZpkgA_000030.flac",
+        "fd": "audio/fd/bIV3bJZpkgA_000030.flac",
+        "drift_mean": "audio/drift_mean/bIV3bJZpkgA_000030.flac",
+        "drift_fd": "audio/drift_fd/bIV3bJZpkgA_000030.flac",
+        "real": "audio/real/bIV3bJZpkgA_000030.flac"
+      }
+    },
+    {
+      "id": "lfAFQ0-wDJU_000030",
+      "caption": "Sounds of waves and strong winds",
+      "category": "Ocean",
+      "audio": {
+        "mean": "audio/mean/lfAFQ0-wDJU_000030.flac",
+        "fd": "audio/fd/lfAFQ0-wDJU_000030.flac",
+        "drift_mean": "audio/drift_mean/lfAFQ0-wDJU_000030.flac",
+        "drift_fd": "audio/drift_fd/lfAFQ0-wDJU_000030.flac",
+        "real": "audio/real/lfAFQ0-wDJU_000030.flac"
+      }
+    },
+    {
+      "id": "KVAIaRPry24_000050",
+      "caption": "Buzzing and scratching with some light banging",
+      "category": "Buzzing & impacts",
+      "audio": {
+        "mean": "audio/mean/KVAIaRPry24_000050.flac",
+        "fd": "audio/fd/KVAIaRPry24_000050.flac",
+        "drift_mean": "audio/drift_mean/KVAIaRPry24_000050.flac",
+        "drift_fd": "audio/drift_fd/KVAIaRPry24_000050.flac",
+        "real": "audio/real/KVAIaRPry24_000050.flac"
+      }
+    },
+    {
+      "id": "sJrFyjfrL-g_000150",
+      "caption": "Metal clicking and clacking as a sewing machine slowly operates",
+      "category": "Machinery",
+      "audio": {
+        "mean": "audio/mean/sJrFyjfrL-g_000150.flac",
+        "fd": "audio/fd/sJrFyjfrL-g_000150.flac",
+        "drift_mean": "audio/drift_mean/sJrFyjfrL-g_000150.flac",
+        "drift_fd": "audio/drift_fd/sJrFyjfrL-g_000150.flac",
+        "real": "audio/real/sJrFyjfrL-g_000150.flac"
+      }
+    }
+  ]
+}
